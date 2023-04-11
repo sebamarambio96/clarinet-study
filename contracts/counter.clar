@@ -20,7 +20,9 @@
 ;;
 
 ;; public functions
-;;
+
+(define-public (hello-world) 
+    (ok (print {msg:"Hello world", tip: block-height, sender: tx-sender})))
 
 ;; read only functions
 ;;
